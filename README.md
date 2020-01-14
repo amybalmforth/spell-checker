@@ -19,7 +19,6 @@ Test cases:
 "b" > "~b~"
 "c" > "~c~"
 "ab" > "~ab~"
-"and" > "and"
 "aaa" > "~aaa~"
 "as an" > "as an"
 "ab b" > "~ab~ ~b~"
