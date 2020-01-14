@@ -4,7 +4,10 @@ class Wordprocessor
     if string == "" || string == "a" || string == "an" || string == "I"
       return string
     end
-    return "~i~"
+    if string == "i"
+      return "~i~"
+    end
+    return "~b~"
 
   end
 

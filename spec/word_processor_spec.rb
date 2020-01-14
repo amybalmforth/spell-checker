@@ -28,6 +28,10 @@ describe Wordprocessor do
       expect(subject.spell_checker("i")).to eq "~i~"
     end
 
+    it "takes in b and returns ~b~" do
+      expect(subject.spell_checker("b")).to eq "~b~"
+    end
+
   end
 
 
