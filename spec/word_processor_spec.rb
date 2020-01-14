@@ -8,6 +8,10 @@ describe Wordprocessor do
       expect(subject.spell_checker("")).to eq ""
     end
 
+    it "takes in a and returns a" do
+      expect(subject.spell_checker("a")).to eq "a"
+    end
+
   end
 
 
