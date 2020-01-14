@@ -13,11 +13,11 @@ Test cases:
 
 "" > ""
 "a" > "a"
+"an" > "an"
 "I" > "I"
 "i" > "~i~"
 "b" > "~b~"
 "c" > "~c~"
-"an" > "an"
 "ab" > "~ab~"
 "and" > "and"
 "aaa" > "~aaa~"
