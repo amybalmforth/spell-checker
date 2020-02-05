@@ -17,11 +17,11 @@ Test cases:
 "I" > "I"
 "i" > "~i~"
 "b" > "~b~"
-"c" > "~c~"
 "ab" > "~ab~"
-"aaa" > "~aaa~"
 "as an" > "as an"
 "ab b" > "~ab~ ~b~"
 "as we are" > "as we are"
 "ab b b" > "~ab~ ~b~ ~b~"
-"and abb" > "and ~abb~"
+"an abb" > "an ~abb~"
+
+GOAL/MVP: 25 words (Understanding parameters under which the program needs to operate, given time frame)

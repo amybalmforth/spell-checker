@@ -1,16 +1,21 @@
 class Wordprocessor
 
   def spell_checker(string)
-    if string == "" || string == "a" || string == "an" || string == "I"
-      return string
+
+    dictionary = ["", "a", "an", "I", "as", "an", "we", "are", "yes", "no"]
+
+    words = string.split(" ")
+
+    returned_string = []
+    words.each do |w|
+      if dictionary.include?(w)
+        returned_string << w
+      else
+        returned_string << "~" + w + "~"
+      end
     end
-    if string == "i"
-      return "~i~"
-    end
-    return "~b~"
+    return returned_string.join(" ")
 
   end
-
-
 
 end
